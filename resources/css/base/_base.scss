@@ -1,0 +1,35 @@
+/**
+* Общие
+*/
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .wrapper {
+    overflow: hidden;
+    background-color: #f3f4f8;
+  }
+  
+  .content-wrap {
+    margin-bottom: 60px;
+  }
+  
+  .content-container {
+    overflow: hidden;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .content-container_page {
+    margin-bottom: 15px;
+    padding: 30px 45px;
+  }

@@ -1,0 +1,294 @@
+/**
+* Типографика
+*/
+
+.heading {
+	font-family: aMavickFont;
+	font-size: 34px;
+	font-weight: 400;
+	line-height: normal;
+	line-height: 36px;
+	margin: 0 0 30px 0;
+	text-align: center;
+	color: #171717;
+  }
+
+  .subheading {
+	margin: 0 0 40px 0;
+  }
+
+  .desc {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0 0 50px 0;
+	text-align: center;
+	color: #565b5e;
+  }
+
+  .article {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 29px;
+	color: #757987;
+  }
+
+  .article_desc {
+	margin-bottom: 30px;
+  }
+
+  .article h1,
+  .article .h1,
+  .article h2,
+  .article .h2,
+  .article h3,
+  .article .h3,
+  .article h4,
+  .article .h4,
+  .article h5,
+  .article .h5,
+  .article h6,
+  .article .h6 {
+	font-family: aMavickFont;
+	font-size: 34px;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 30px;
+	color: #171717;
+  }
+
+  .article h1,
+  .article .h1 {
+	font-size: 34px;
+  }
+
+  .article h2,
+  .article .h2 {
+	font-size: 26px;
+  }
+
+  .article h3,
+  .article .h3 {
+	font-size: 21px;
+  }
+
+  .article h4,
+  .article .h4 {
+	font-size: 19px;
+  }
+
+  .article h5,
+  .article .h5 {
+	font-size: 16px;
+  }
+
+  .article h6,
+  .article .h6 {
+	font-size: 14px;
+  }
+
+  .article img {
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+  }
+
+  .article ul,
+  .article ol {
+	margin: 30px 0;
+	padding: 0;
+	list-style: none;
+  }
+
+  .article ul li,
+  .article ol li {
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 24px;
+	position: relative;
+	padding: 12px 0 12px 40px;
+  }
+
+  .article ul li h2,
+  .article ul li .h2,
+  .article ul li h3,
+  .article ul li .h3,
+  .article ul li h4,
+  .article ul li .h4,
+  .article ol li h2,
+  .article ol li .h2,
+  .article ol li h3,
+  .article ol li .h3,
+  .article ol li h4,
+  .article ol li .h4 {
+	margin-bottom: 10px;
+  }
+
+  .article ul li:before {
+	position: absolute;
+	top: 16px;
+	left: 0;
+	display: block;
+	width: 14px;
+	height: 14px;
+	content: '';
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	opacity: 0.7;
+	background: url(../img/ico/ico-arrow-pagination.svg) 0 0 no-repeat;
+	background-size: 14px auto;
+  }
+
+  .article ol {
+	counter-reset: list;
+  }
+
+  .article ol li {
+	padding-left: 44px;
+  }
+
+  .article ol li:before {
+	font-family: aMavickFont;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: normal;
+	position: absolute;
+	top: 12px;
+	left: 0;
+	display: block;
+	content: counter(list) '.';
+	counter-increment: list;
+	color: #000000;
+  }
+
+  .article p {
+	position: relative;
+	z-index: 20;
+	margin-bottom: 30px;
+  }
+
+  .article p:last-child {
+	margin-bottom: 0;
+  }
+
+  .article strong,
+  .article b {
+	font-weight: 700;
+	color: #000000;
+  }
+
+  .article a {
+	text-decoration: underline;
+	color: #6b69c5;
+  }
+
+  .article a:hover {
+	text-decoration: none;
+	color: #e21c52;
+  }
+
+  .article table {
+	width: 100%;
+	margin-bottom: 40px;
+  }
+
+  .article table thead:after {
+	line-height: 10px;
+	display: block;
+	content: '-';
+	color: transparent;
+  }
+
+  .article table th {
+	font-size: 17px;
+	font-weight: 100;
+	line-height: normal;
+	padding: 10px 5px;
+	text-align: center;
+	color: #757987;
+	background-color: #f3f4f8;
+  }
+
+  .article table td {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: normal;
+	padding: 13px 10px;
+	text-align: center;
+	color: #757987;
+  }
+
+  .article table td:first-child {
+	text-align: left;
+  }
+
+  .article table td b,
+  .article table td strong {
+	color: #757987;
+  }
+
+  .article table tbody {
+	border: 1px solid #e3e3e7;
+  }
+
+  .article table tbody td {
+	border-bottom: 1px dashed #cdcfd4;
+  }
+
+  .article table tbody tr:first-child td[colspan] {
+	text-align: center;
+	background-color: #fbfbfd;
+  }
+
+  .alignleft {
+	float: left;
+	margin: 0 40px 20px 0;
+  }
+
+  .alignright {
+	float: right;
+	margin: 0 0 26px 40px;
+  }
+
+  .aligncenter {
+	display: table;
+	margin: 0 auto;
+  }
+
+  .img-blot {
+	position: relative;
+	display: block;
+  }
+
+  .headline {
+	position: relative;
+	padding-bottom: 24px;
+	text-align: center;
+  }
+
+  .article .headline {
+	margin-bottom: 30px;
+  }
+
+  .headline:before {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	display: block;
+	width: 44px;
+	height: 5px;
+	margin-left: -22px;
+	content: '';
+  }
+
+  .headline_pink:before {
+	background-color: #ff0e6c;
+  }
+
+  .headline_purple:before {
+	background-color: #704197;
+  }
+
+  .headline_aqua:before {
+	background-color: #79e3d0;
+  }

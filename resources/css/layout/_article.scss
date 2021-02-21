@@ -1,0 +1,81 @@
+.educator-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: -33px;
+    margin-left: -33px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .educator-item {
+    width: 33.33333%;
+    margin-bottom: 30px;
+    padding: 0 33px;
+  }
+  
+  .educator-item__img {
+    margin-bottom: 20px;
+  }
+  
+  .educator-item__title {
+    font-family: aMavickFont;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  
+  .educator-item__post {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    min-height: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .educator-item__desc {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 15px;
+    color: #757987;
+  }
+  
+  .educator-item__action {
+    text-align: center;
+  }
+  
+  .educator-item__btn {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    display: inline-block;
+    padding: 5px 38px;
+    text-decoration: none;
+    color: #757987;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #f3f4f8;
+  }
+  
+  .educator-item__btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ef1945;
+  }
+  
+  .article .educator-item__btn {
+    text-decoration: none;
+    color: #757987;
+  }
+  
+  .article .educator-item__btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ef1945;
+  }

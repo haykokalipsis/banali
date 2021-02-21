@@ -1,0 +1,99 @@
+.mail
+    width: 650px
+    height: 900px 
+    margin: -252px auto
+
+    &__envelope        
+        height: 900px 
+        position: relative
+        
+    &__envelope-back
+        height: 900px 
+        width: 100%
+        background-image: url(../images/envelope-back-tall.png)
+        background-repeat: no-repeat
+        background-size: cover
+        position: absolute
+        bottom: 20px
+        left: 0
+
+    &__envelope-front
+        z-index: 3
+        height: 354px 
+        width: 650px
+        background-image: url(../images/envelope-front.png)
+        background-repeat: no-repeat
+        background-size: cover
+        position: absolute
+        bottom: 15px
+        left: 0
+            
+    &__corner
+        position: absolute
+        width: 8px
+        height: 8px
+        border: 1px solid $border-orange
+
+        &--left-top
+            left: 13px
+            top: 13px
+
+        &--right-top
+            right: 13px
+            top: 13px
+            
+    &__paper
+        background-color: white
+        width: 90%
+        height: 650px
+        z-index: 2
+        position: absolute
+        left:  5%
+        bottom: -150px
+        padding: 20px
+        margin: 0 auto
+
+    &__content-box
+        border: 1px solid $border-orange
+        border-bottom: none
+        height: 100%
+        padding: 10px 30px
+        text-align: center
+
+.contact-title
+    margin-top: 10px
+.contact-title h1
+    font-size: 32px
+    line-height: 2
+
+.contact-title h2
+    font-size: 16px
+
+form
+    // margin: 50px
+
+.form-control
+    width: 80%
+    background: transparent
+    border: none
+    outline: none
+    border-bottom: 1px solid $border-orange
+    color: black
+    font-size: 18px
+    margin-bottom: 16px
+input
+    height: 45px
+
+.submit
+    background-color: #ff5722
+    border-color: transparent
+    color: white
+    font-size: 20px
+    font-weight: bold
+    letter-spacing: 2px
+    height: 50px
+    margin-top: 20px
+
+.submit:hover
+    background-color: #f44336
+    cursor: pointer

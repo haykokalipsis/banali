@@ -1,0 +1,192 @@
+/**
+* Шапка
+*/
+
+.bar {
+	color: #ffffff;
+	background-color: #222222;
+  }
+
+  .bar__inner {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+  }
+
+  .bar__toogle {
+	display: none;
+  }
+
+  .bar__phone {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 9px 0;
+	padding-left: 34px;
+	color: #ffffff;
+	background: url(../img/ico/ico-header-phone.png) left center no-repeat;
+	background-size: 16px 16px;
+  }
+
+  .bar__phone-item {
+	margin-right: 35px;
+  }
+
+  .bar__phone-link {
+	text-decoration: none;
+	color: #ffffff;
+  }
+
+  .bar__phone-link:hover {
+	color: #ffffff;
+  }
+
+  .bar__address {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+	margin: 9px 0;
+	padding-left: 30px;
+	color: #ffffff;
+	background: url(../img/ico/ico-header-address.png) left center no-repeat;
+	background-size: 15px 21px;
+  }
+
+  .bar__action {
+	margin-left: auto;
+  }
+
+  .bar__action-btn {
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 40px;
+	position: relative;
+	bottom: -10px;
+	display: inline-block;
+	padding: 0 60px 0 30px;
+	text-decoration: none;
+	color: #ffffff;
+	-webkit-border-radius: 8px 8px 0 0;
+	border-radius: 8px 8px 0 0;
+	background-color: #e21c52;
+  }
+
+  .bar__action-btn:before {
+	position: absolute;
+	top: 13px;
+	right: 18px;
+	display: block;
+	width: 14px;
+	height: 14px;
+	content: '';
+	background: url(../img/ico/ico-arrow-btn.svg) 0 0 no-repeat;
+	background-size: 14px auto;
+  }
+
+  .bar__action-btn:hover {
+	color: #ffffff;
+	background-color: #23d0ec;
+  }
+
+  .header-wrap {
+	padding-top: 10px;
+  }
+
+  .header-wrap_home {
+	padding-bottom: 120px;
+	background: url(../img/img-blot-home-slider-top-left.png) -webkit-calc(50% - 845px) -35px no-repeat, url(../img/img-blot-home-slider-top-right.png) -webkit-calc(50% + 845px) 60px no-repeat, url(../img/img-blot-home-slider-bottom-left.png) -webkit-calc(50% - 748px) 400px no-repeat, url(../img/img-blot-home-slider-bottom-right.png) -webkit-calc(50% + 702px) 600px no-repeat;
+	background: url(../img/img-blot-home-slider-top-left.png) calc(50% - 845px) -35px no-repeat, url(../img/img-blot-home-slider-top-right.png) calc(50% + 845px) 60px no-repeat, url(../img/img-blot-home-slider-bottom-left.png) calc(50% - 748px) 400px no-repeat, url(../img/img-blot-home-slider-bottom-right.png) calc(50% + 702px) 600px no-repeat;
+  }
+
+  .header-wrap_page {
+	background: url(../img/img-blot-page-01.png) -webkit-calc(50% - 780px) -40px no-repeat, url(../img/img-blot-page-02.png) -webkit-calc(50% + 780px) -40px no-repeat;
+	background: url(../img/img-blot-page-01.png) calc(50% - 780px) -40px no-repeat, url(../img/img-blot-page-02.png) calc(50% + 780px) -40px no-repeat;
+  }
+
+  .header {
+	max-width: 1200px;
+	margin: 0 auto 15px auto;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #ffffff;
+  }
+
+  .header_home {
+	max-width: 1780px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+  }
+
+  .header__inner {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding-bottom: 20px;
+  }
+
+  .header__logo {
+	margin-right: 35px;
+  }
+
+  .header__action {
+	display: none;
+  }
+
+  .logo {
+	padding-top: 5px;
+  }
+
+  .fix-bar .logo {
+	padding-top: 0;
+  }
+
+  .logo__link {
+	display: block;
+	padding: 20px 0 20px 84px;
+	white-space: nowrap;
+	text-decoration: none;
+	color: #171717;
+	background: url(../img/ico/ico-logo.png) 0 0 no-repeat;
+  }
+
+  .fix-bar .logo__link {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 64px;
+	background-size: 46px auto;
+  }
+
+  .logo__title {
+	font-family: aMavickFont;
+	font-size: 27px;
+	font-weight: 400;
+	line-height: 30px;
+	display: block;
+	text-transform: uppercase;
+	color: #171717;
+  }
+
+  .fix-bar .logo__title {
+	font-size: 20px;
+	line-height: 22px;
+  }
+
+  .logo__sub-title {
+	font-size: 13px;
+	font-weight: 100;
+	line-height: 14px;
+	display: block;
+	color: #171717;
+  }
+
+  .fix-bar .logo__sub-title {
+	font-size: 10px;
+	line-height: 12px;
+  }

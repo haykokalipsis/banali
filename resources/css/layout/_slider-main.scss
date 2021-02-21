@@ -1,0 +1,109 @@
+/**
+* Слайдер в шапке на главной
+*/
+
+.home-slider {
+    position: relative;
+  }
+  
+  .home-slider__item {
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .home-slider__inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    height: 660px;
+    padding: 20px 0;
+    text-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -ms-flex-align: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  
+  .home-slider__head {
+    font-family: aMavickFont;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .home-slider__desc {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    margin-bottom: 40px;
+    padding-right: 90px;
+    padding-left: 90px;
+    color: #ffffff;
+  }
+  
+  .home-slider__desc:before,
+  .home-slider__desc:after {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 74px;
+    height: 1px;
+    content: '';
+    background-color: #ffffff;
+  }
+  
+  .home-slider__desc:before {
+    left: 0;
+  }
+  
+  .home-slider__desc:after {
+    right: 0;
+  }
+  
+  .home-slider__btn {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+    display: inline-block;
+    padding: 0 70px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background: none;
+  }
+  
+  .home-slider__btn:hover {
+    color: #171717;
+    background-color: #ffffff;
+  }
+  
+  .letter span:nth-child(4n+1) {
+    color: #e51850;
+  }
+  
+  .letter span:nth-child(4n+2) {
+    color: #33d8f0;
+  }
+  
+  .letter span:nth-child(4n+3) {
+    color: #6a7fff;
+  }
+  
+  .letter span:nth-child(4n+4) {
+    color: #ef832c;
+  }

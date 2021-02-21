@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+// @import
+  // 'abstracts/variables',
+  // 'abstracts/functions',
+  // 'abstracts/colours',
+  // 'abstracts/mixins';
+
+// 2. Vendors
+@import
+  'vendors/normalize';
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography';
+  //'base/responsive';
+
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/nav',
+  'layout/footer',
+  'layout/about',
+  'layout/article',
+  'layout/advantage',
+  'layout/review',
+  'layout/service',
+  'layout/slider-main',
+  'layout/stock',
+  'layout/system',
+  'layout/timetable',
+  'layout/footer';
+
+// 5. Components
+@import
+  'components/breadcrumbs',
+  'components/fancybox',
+  'components/floating-panel',
+  'components/form',
+  'components/formstyler',
+  'components/modal',
+  'components/pagination',
+  'components/slick',
+  'components/slideout';
+
+// 6. Page-specific styles
+@import
+  'pages/home';
+
+// 7. Themes
+@import
+  'themes/default';
+
+// Media
+@import
+  'base/responsive';

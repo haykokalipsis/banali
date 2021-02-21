@@ -1,0 +1,133 @@
+.stock {
+    padding: 50px 0;
+  }
+
+  .stock .heading {
+    margin-bottom: 0;
+  }
+
+  .stock-wrap {
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: url(../img/img-blot-stock.png) center center no-repeat;
+  }
+
+  .stock-list {
+    margin-right: -35px;
+    margin-left: -35px;
+  }
+
+  .stock-list__item {
+    padding: 50px;
+  }
+
+  .stock-list__inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background: #ffffff;
+  }
+
+  .stock-list_page .stock-list__item {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .stock-list_page .stock-list__inner {
+    -webkit-box-shadow: 0 -3px 54px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 -3px 54px rgba(0, 0, 0, 0.14);
+  }
+
+  .slick-current .stock-list__inner {
+    -webkit-box-shadow: 0 -3px 54px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 -3px 54px rgba(0, 0, 0, 0.14);
+  }
+
+  .stock-list__img {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 490px;
+    -ms-flex: 0 0 490px;
+    flex: 0 0 490px;
+  }
+
+  .stock-list__content {
+    padding: 40px;
+  }
+
+  .stock-list__title {
+    font-family: aMavickFont;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    color: #171717;
+  }
+
+  .stock-list__sub-title {
+    font-family: aMavickFont;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+
+  .stock-list__desc {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #32343c;
+  }
+
+  .stock-list__desc ol {
+    padding: 0;
+    list-style: none;
+    counter-reset: list;
+  }
+
+  .stock-list__desc ol li {
+    position: relative;
+    padding-left: 30px;
+  }
+
+  .stock-list__desc ol li:before {
+    font-family: aMavickFont;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: counter(list) '.';
+    counter-increment: list;
+    color: #000000;
+  }
+
+  .stock-list__desc li {
+    margin-bottom: 10px;
+    color: #595c68;
+  }
+
+  .stock-list__desc *:last-child {
+    margin-bottom: 0;
+  }
+
+  .stock-list .slick-arrow:hover {
+    background-color: #f3b034;
+  }
+
+  .stock-list .slick-arrow.slick-next {
+    right: 10px;
+  }
+
+  .stock-list .slick-arrow.slick-prev {
+    left: 10px;
+  }

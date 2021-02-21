@@ -1,0 +1,80 @@
+/**
+* Плавающаяя панель
+*/
+
+.fix-bar {
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 5px 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    transform: translateY(-100px);
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  }
+
+  .fix-bar_active {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  .fix-bar__inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    -ms-flex-align: center;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
+
+  .fix-bar__logo {
+    margin-right: 40px;
+  }
+
+  .fix-bar__action-btn {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    position: relative;
+    display: inline-block;
+    padding: 12px 40px 12px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #e21c52;
+  }
+
+  .fix-bar__action-btn:before {
+    position: absolute;
+    top: 13px;
+    right: 18px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    content: '';
+    background: url(../img/ico/ico-arrow-btn.svg) 0 0 no-repeat;
+    background-size: 14px auto;
+  }
+
+  .fix-bar__action-btn:hover {
+    color: #ffffff;
+    background-color: #23d0ec;
+  }

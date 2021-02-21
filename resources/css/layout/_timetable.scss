@@ -1,0 +1,138 @@
+.timetable {
+    padding: 50px 0;
+    background-color: #ffffff;
+  }
+  
+  .timetable-board {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 20px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+  }
+  
+  .timetable-board__item {
+    width: 33.33333%;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .timetable-board__item_morning {
+    background-color: #e51850;
+  }
+  
+  .timetable-board__item_dinner {
+    background-color: #fe8625;
+  }
+  
+  .timetable-board__item_evening {
+    background-color: #984ecb;
+  }
+  
+  .timetable-board__head {
+    font-family: aMavickFont;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 35px 10px;
+    color: #ffffff;
+  }
+  
+  .timetable-board__item_morning .timetable-board__head {
+    background-color: #ca1648;
+  }
+  
+  .timetable-board__item_dinner .timetable-board__head {
+    background-color: #e07722;
+  }
+  
+  .timetable-board__item_evening .timetable-board__head {
+    background-color: #8746b4;
+  }
+  
+  .timetable-board__body {
+    padding: 0 40px;
+  }
+  
+  .timetable-board__unit {
+    min-height: 154px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #ffffff;
+  }
+  
+  .timetable-board__unit:last-child {
+    border-bottom: none;
+  }
+  
+  .timetable-board__label {
+    font-family: aMavickFont;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .timetable-board__value {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  
+  .timetable-end {
+    text-align: center;
+  }
+  
+  .timetable-end__main {
+    display: table;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    padding: 20px 40px;
+    border: 2px dashed #b9bcc9;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+  }
+  
+  .timetable-end__label {
+    font-family: aMavickFont;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+    color: #aaacb6;
+  }
+  
+  .timetable-end__value {
+    font-family: aMavickFont;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: normal;
+    color: #121212;
+  }
+  
+  .timetable-end__btn {
+    font-family: aMavickFont;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: underline;
+    color: #4d4d4d;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background-color: #f3f4f8;
+  }
+  
+  .timetable-end__btn:hover {
+    text-decoration: underline;
+    color: #ffffff;
+    background-color: #23d0ec;
+  }
+  

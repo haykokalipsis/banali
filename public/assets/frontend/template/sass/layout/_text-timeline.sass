@@ -1,0 +1,147 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+/* Timeline */
+/* The actual timeline (the vertical ruler) */
+.timeline
+    &-section 
+        margin-top: 5px
+        // border: 1px solid brown
+
+    &-heading
+        font-size: 24px
+        font-weight: normal
+
+    &-content
+        /* padding: 20px 30px; */
+        /* background-color: white; */
+        position: relative
+        border-radius: 6px
+        font-size: 14px
+        font-family: "Arvo"
+        /* font-weight: 600; */
+
+        span
+            font-weight: bolder
+            color: $border-orange
+
+    &-block
+        position: relative
+        max-width: 1200px
+        margin: 0 auto
+        
+        &::after
+            content: ''
+            position: absolute
+            width: 2px
+            background-color: $border-orange
+            top: 0
+            bottom: 0
+            left: 50%
+            margin-left: -1px
+
+            @media screen and (max-width: 600px)
+                left: 31px
+
+.timeline-container
+    padding: 10px 10px
+    position: relative
+    width: 50%
+    text-align: center
+
+    @media screen and (max-width: 600px)
+        width: 100%
+        padding-left: 70px
+        padding-right: 25px
+        text-align: left
+    
+    &--left
+        left: 0
+    &--right 
+        left: 50%
+        @media screen and (max-width: 600px)
+            left: 0%
+    &--empty
+        left: 0
+        margin-top: 50px
+        margin-bottom: 50px
+        
+    &--intro-1
+        margin-top: 40px
+    &--intro-2
+        margin-top: 100px
+    &--intro-3
+        margin-top: 40px
+    &--intro-4
+        margin-top: 0px 
+        margin-bottom: 60px
+    
+    &--about-us-1
+        margin-top: 0px
+    &--about-us-2
+        margin-top: 30px
+    &--about-us-3
+        margin-top: 200px
+    &--about-us-4
+        margin-top: 0px 
+        margin-bottom: 60px
+
+    &--smm-1
+        margin-top: 20px
+    &--smm-2
+        margin-top: 30px
+        margin-bottom: 360px
+
+    &--import-export-1
+        margin-top: 400px
+        margin-right: 370px
+    
+    &--mail-1
+        margin-top: 200px
+        // margin-right: 370px
+        // width: 500px
+    
+/* Place the timeline-container to the right */
+
+
+// .first 
+//     margin-top: 40px
+
+// .second
+//      margin-top: 100px
+
+// .third 
+//     margin-top: 40px
+
+// .fourth
+//      margin-top: 10px 
+//      margin-bottom: 60px
+
+.social-first 
+    // margin-top: 20px
+    left: 40px
+    @media screen and (max-width: 600px)
+        left: 0%
+
+.social-second
+    // margin-top: 5px
+    left: 100px
+    @media screen and (max-width: 600px)
+        left: 0%
+
+.social-third 
+    // margin-top: 5px
+    left: 45px
+    @media screen and (max-width: 600px)
+        left: 0%
+
+.social-fourth
+    // margin-top: 10px 
+    left: 80px
+    @media screen and (max-width: 600px)
+        left: 0%
+
+.social-fifth
+    // margin-top: 8px 
+    margin-bottom: 60px
+    left: -50px

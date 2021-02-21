@@ -1,0 +1,111 @@
+.system {
+    padding: 50px 0;
+  }
+
+  .system-main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .system-main__img {
+    position: relative;
+  }
+
+  .system-main__img:before {
+    position: absolute;
+    z-index: 5;
+    top: -30px;
+    left: -90px;
+    display: block;
+    width: 329px;
+    height: 357px;
+    content: '';
+    background: url(../img/img-blot-system-img.png) 0 0 no-repeat;
+  }
+
+  .system-main__img img {
+    position: relative;
+    z-index: 10;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+  }
+
+  .system-main__content {
+    position: relative;
+    z-index: 20;
+    width: 780px;
+    margin-top: 110px;
+    margin-left: -100px;
+  }
+
+  .system-main__content:before {
+    position: absolute;
+    top: -100px;
+    right: -200px;
+    display: block;
+    width: 706px;
+    height: 622px;
+    content: '';
+    background: url(../img/img-blot-system-text.png) 0 0 no-repeat;
+  }
+
+  .system-main__inner {
+    position: relative;
+    padding: 40px 50px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+  }
+
+  .system-main__head {
+    font-family: aMavickFont;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    margin-bottom: 20px;
+    color: #171717;
+  }
+
+  .system-main__desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    color: #7d7f88;
+  }
+
+  .system-main__desc p:last-child {
+    margin-bottom: 0;
+  }
+
+  .system-main__action {
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .system-main__btn {
+    font-family: aMavickFont;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #ffffff;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background-color: #ef1945;
+  }
+
+  .system-main__btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #f6b734;
+  }

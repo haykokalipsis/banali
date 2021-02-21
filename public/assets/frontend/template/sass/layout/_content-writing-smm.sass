@@ -1,0 +1,35 @@
+.content-writing 
+    &-block
+        width: 800px
+        // height: 350px
+        border: 3px dashed $border-orange
+        padding: 40px
+        padding-right: 70px
+        margin: 1px auto
+        position: relative
+        overflow: hidden
+        
+        &__text
+            p 
+                margin-top: 20px
+                font-size: 16px
+                font-family: "Open Sans" serif
+
+            &__title 
+                font-size: 30px
+                font-weight: normal
+                font-family: "Arvo"
+
+        &__sliding-text
+            position: absolute
+            z-index: 3
+            height: 100%
+            width: 100%
+            top: 80%
+            left: 0
+            opacity: 0.2
+            background-image: url(../images/content.png)
+            background-size: cover
+            background-repeat: no-repeat
+            // box-shadow: 0px 0px 14px 3px #fde8c1
+            // margin-top: -30px

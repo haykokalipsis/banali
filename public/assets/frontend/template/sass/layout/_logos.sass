@@ -1,0 +1,52 @@
+.logos
+    &-block
+        margin: 0 auto
+        width: 700px
+        padding: 23px 0
+        border: 2px solid $border-orange
+        position: relative
+        
+        &__items
+            display: flex
+            flex-wrap: wrap
+            justify-content: center
+            position: relative
+            overflow: hidden
+
+        &__corner
+            position: absolute
+            width: 12px
+            height: 12px
+            border: 2px solid $border-orange
+
+            &--left-top
+                left: -12px
+                top: -12px
+
+            &--left-bottom
+                left: -12px
+                bottom: -12px
+
+            &--right-top
+                right: -12px
+                top: -12px
+            
+            &--right-bottom
+                right: -12px
+                bottom: -12px
+
+        &__logo
+            width: 162.5px
+            height: 162.5px
+            display: flex
+            justify-content: center
+            align-items: center
+
+            &--light
+                background-color: $logo-light
+            &--dark
+                background-color: $logo-dark
+
+            // &__image
+
+                

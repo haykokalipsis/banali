@@ -1,0 +1,84 @@
+.import-export
+    &-block
+        width: 800px
+        height: 550px
+        border: 3px dashed $border-orange
+        overflow: hidden
+        margin: 1px auto
+        padding: 15px
+        padding-left: 20px 
+        padding-right: 20px 
+        position: relative
+
+        background-image: url(../images/import-export/map.png)
+        background-position: 20px 100px
+        background-size: 750px 404px
+        background-repeat: no-repeat
+
+        &__title
+            // margin: 10px 20px
+            margin-left: 22px
+            font-size: 30px
+            font-weight: normal
+            font-family: "Arvo"
+        &__phone
+            position: absolute
+            width: 185px
+            height: 383px
+            background-image: url(../images/import-export/phone.png)
+            background-size: cover
+            left: 290px
+            top: 90px
+
+        &__calendar
+            position: absolute
+            width: 47px
+            height: 47px
+            background-image: url(../images/import-export/calendar.png)
+            background-size: cover
+            left: 267px
+            top: 115px
+            z-index: 3
+
+        &__truck
+            position: absolute
+            width: 262px
+            height: 95px
+            background-image: url(../images/import-export/truck.png)
+            background-size: cover
+            right: 183px
+            top: 175px
+            z-index: 3
+        
+        &__timer
+            position: absolute
+            width: 67px
+            height: 63px
+            background-image: url(../images/import-export/timer.png)
+            background-size: cover
+            left: 487px
+            bottom: 100px
+            z-index: 3
+
+        &__baggage
+            position: absolute
+            width: 134px
+            height: 99px
+            background-image: url(../images/import-export/baggage.png)
+            background-size: cover
+            left: 152px
+            bottom: 191px
+            z-index: 3
+
+        &__text
+            // opacity: 0
+            font-size: 16px
+            padding: 25px
+            font-family: "Open Sans" serif
+            position: absolute
+            bottom: -55%
+            z-index: 5
+
+        &__text--bold
+            font-weight: bold
+        
